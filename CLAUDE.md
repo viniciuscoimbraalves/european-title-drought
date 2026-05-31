@@ -40,8 +40,18 @@ src/
 ## Clubs (23)
 AC Milan, Ajax, Arsenal, Aston Villa, Barcelona, Bayern Munich, Benfica, Chelsea, Borussia Dortmund, PSV Eindhoven, Fenerbahçe, Feyenoord, Hamburg, Inter Milan, Juventus, Liverpool, Manchester City, Manchester United, Marseille, Nottingham Forest, Porto, PSG, Real Madrid, Red Star Belgrade, Steaua București.
 
-## Competitions (single for now, extensible)
+## Competitions
 - champions-league — UEFA Champions League / European Cup
+- la-liga — La Liga (Spain)
+- premier-league — Premier League (England)
+- serie-a — Serie A (Italy)
+- bundesliga — Bundesliga (Germany)
+- eredivisie — Eredivisie (Netherlands)
+- primeira-liga — Primeira Liga (Portugal)
+- ligue-1 — Ligue 1 (France)
+- scottish-premiership — Scottish Premiership (Scotland)
+- liga-i — Liga I (Romania)
+- serbian-superliga — Serbian SuperLiga (Serbia)
 
 Add new competitions via `COMPETITIONS` array and `Record<string, string>` titles in `teams.ts`.
 

@@ -17,6 +17,16 @@ export type CompetitionInfo = {
 
 export const COMPETITIONS: CompetitionInfo[] = [
   { slug: "champions-league", displayName: "Champions League" },
+  { slug: "la-liga", displayName: "La Liga" },
+  { slug: "premier-league", displayName: "Premier League" },
+  { slug: "serie-a", displayName: "Serie A" },
+  { slug: "bundesliga", displayName: "Bundesliga" },
+  { slug: "eredivisie", displayName: "Eredivisie" },
+  { slug: "primeira-liga", displayName: "Primeira Liga" },
+  { slug: "ligue-1", displayName: "Ligue 1" },
+  { slug: "scottish-premiership", displayName: "Scottish Premiership" },
+  { slug: "liga-i", displayName: "Liga I" },
+  { slug: "serbian-superliga", displayName: "Serbian SuperLiga" },
 ];
 
 export const teams: Team[] = [
@@ -31,6 +41,7 @@ export const teams: Team[] = [
     founded: "1902-03-06",
     titles: {
       "champions-league": "2024-06-01T21:00:00",
+      "la-liga": "2024-05-04",
     },
   },
   {
@@ -44,6 +55,7 @@ export const teams: Team[] = [
     founded: "1899-12-16",
     titles: {
       "champions-league": "2007-05-23T21:00:00",
+      "serie-a": "2022-05-22",
     },
   },
   {
@@ -57,6 +69,7 @@ export const teams: Team[] = [
     founded: "1900-02-27",
     titles: {
       "champions-league": "2020-08-23T21:00:00",
+      "bundesliga": "2023-05-27",
     },
   },
   {
@@ -70,6 +83,7 @@ export const teams: Team[] = [
     founded: "1892-06-03",
     titles: {
       "champions-league": "2019-06-01T21:00:00",
+      "premier-league": "2020-06-25",
     },
   },
   {
@@ -83,6 +97,7 @@ export const teams: Team[] = [
     founded: "1899-11-29",
     titles: {
       "champions-league": "2015-06-06T21:00:00",
+      "la-liga": "2023-05-14",
     },
   },
   {
@@ -96,6 +111,7 @@ export const teams: Team[] = [
     founded: "1900-03-18",
     titles: {
       "champions-league": "1995-05-24T21:00:00",
+      "eredivisie": "2022-05-11",
     },
   },
   {
@@ -109,6 +125,7 @@ export const teams: Team[] = [
     founded: "1908-03-09",
     titles: {
       "champions-league": "2010-05-22T21:00:00",
+      "serie-a": "2024-04-22",
     },
   },
   {
@@ -122,6 +139,7 @@ export const teams: Team[] = [
     founded: "1878-01-01",
     titles: {
       "champions-league": "2008-05-21T21:00:00",
+      "premier-league": "2013-04-22",
     },
   },
   {
@@ -135,6 +153,7 @@ export const teams: Team[] = [
     founded: "1897-11-01",
     titles: {
       "champions-league": "1996-05-22T21:00:00",
+      "serie-a": "2020-07-26",
     },
   },
   {
@@ -148,6 +167,7 @@ export const teams: Team[] = [
     founded: "1904-02-28",
     titles: {
       "champions-league": "1962-05-02T21:00:00",
+      "primeira-liga": "2023-05-27",
     },
   },
   {
@@ -161,6 +181,7 @@ export const teams: Team[] = [
     founded: "1865-01-01",
     titles: {
       "champions-league": "1980-05-28T21:00:00",
+      "premier-league": "1978-04-22",
     },
   },
   {
@@ -174,6 +195,7 @@ export const teams: Team[] = [
     founded: "1893-09-28",
     titles: {
       "champions-league": "2004-05-26T21:00:00",
+      "primeira-liga": "2022-05-07",
     },
   },
   {
@@ -187,6 +209,7 @@ export const teams: Team[] = [
     founded: "1905-03-10",
     titles: {
       "champions-league": "2021-05-29T21:00:00",
+      "premier-league": "2017-05-12",
     },
   },
   {
@@ -200,6 +223,7 @@ export const teams: Team[] = [
     founded: "1887-11-06",
     titles: {
       "champions-league": "1967-05-25T21:00:00",
+      "scottish-premiership": "2024-05-15",
     },
   },
   {
@@ -213,6 +237,7 @@ export const teams: Team[] = [
     founded: "1908-07-19",
     titles: {
       "champions-league": "1970-05-06T21:00:00",
+      "eredivisie": "2023-05-14",
     },
   },
   {
@@ -226,6 +251,7 @@ export const teams: Team[] = [
     founded: "1874-11-21",
     titles: {
       "champions-league": "1982-05-26T21:00:00",
+      "premier-league": "1981-05-02",
     },
   },
   {
@@ -239,6 +265,7 @@ export const teams: Team[] = [
     founded: "1887-09-29",
     titles: {
       "champions-league": "1983-05-25T21:00:00",
+      "bundesliga": "1983-06-04",
     },
   },
   {
@@ -252,6 +279,7 @@ export const teams: Team[] = [
     founded: "1947-06-07",
     titles: {
       "champions-league": "1986-05-07T21:00:00",
+      "liga-i": "2024-04-27",
     },
   },
   {
@@ -265,6 +293,7 @@ export const teams: Team[] = [
     founded: "1913-08-31",
     titles: {
       "champions-league": "1988-05-25T21:00:00",
+      "eredivisie": "2024-05-05",
     },
   },
   {
@@ -278,6 +307,7 @@ export const teams: Team[] = [
     founded: "1945-03-04",
     titles: {
       "champions-league": "1991-05-29T21:00:00",
+      "serbian-superliga": "2024-05-01",
     },
   },
   {
@@ -291,6 +321,7 @@ export const teams: Team[] = [
     founded: "1899-08-31",
     titles: {
       "champions-league": "1993-05-26T21:00:00",
+      "ligue-1": "2010-05-05",
     },
   },
   {
@@ -304,6 +335,7 @@ export const teams: Team[] = [
     founded: "1909-12-19",
     titles: {
       "champions-league": "1997-05-28T21:00:00",
+      "bundesliga": "2012-04-21",
     },
   },
   {
@@ -317,6 +349,7 @@ export const teams: Team[] = [
     founded: "1880-01-01",
     titles: {
       "champions-league": "2023-06-10T21:00:00",
+      "premier-league": "2024-05-19",
     },
   },
 ];
