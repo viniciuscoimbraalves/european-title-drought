@@ -3,7 +3,7 @@
 ## Project
 Website tracking how long it's been since 23 European clubs last won the UEFA Champions League. Real-time counter with years, months, days, hours, minutes, and seconds.
 
-**URL**: https://www.european-title-drought.vercel.app (TBD)
+**URL**: https://european-title-drought.vercel.app
 **Stack**: React 18 + TypeScript + Vite + TanStack Router v1 + Tailwind CSS v4 + Vercel
 
 ## Commands
@@ -78,5 +78,5 @@ Add new competitions via `COMPETITIONS` array and `Record<string, string>` title
 Never deploy without committing and pushing first. The three environments must be kept identical at all times.
 
 ## Remotes
-- GitHub: TBD (needs remote setup)
-- Vercel: TBD (needs project creation and deployment)
+- GitHub: https://github.com/viniciuscoimbraalves/european-title-drought
+- Vercel: https://european-title-drought.vercel.app
