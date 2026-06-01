@@ -21,6 +21,7 @@ export const COMPETITIONS: CompetitionInfo[] = [
   { slug: "premier-league", displayName: "Premier League" },
   { slug: "serie-a", displayName: "Serie A" },
   { slug: "bundesliga", displayName: "Bundesliga" },
+  { slug: "eredivisie", displayName: "Eredivisie" },
   { slug: "primeira-liga", displayName: "Primeira Liga" },
   { slug: "ligue-1", displayName: "Ligue 1" },
 ];
@@ -402,6 +403,20 @@ export const teams: Team[] = [
     titles: {
       "champions-league": "1900-01-01",
       "primeira-liga": "1900-01-01",
+    },
+  },
+  {
+    name: "Ajax",
+    nickname: "De Godenzonen",
+    color: "oklch(0.50 0.18 15)",
+    secondaryColor: "oklch(0.98 0 0)",
+    crest: "https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg",
+    country: "Netherlands",
+    city: "Amsterdam",
+    founded: "1900-03-18",
+    titles: {
+      "champions-league": "1995-05-24T21:00:00",
+      "eredivisie": "2022-05-11",
     },
   },
 ];
