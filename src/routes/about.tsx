@@ -16,7 +16,7 @@ function About() {
       <h1 className="text-4xl font-black text-foreground">About</h1>
       <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
         European Title Drought tracks how long it has been since Europe's biggest clubs last won a major competition.
-        Currently focused on the UEFA Champions League, with more competitions coming soon.
+        We track the UEFA Champions League along with domestic league titles across England, Spain, Italy, Germany, France, and Portugal.
       </p>
       <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
         The counter updates in real time — every second — so you can see exactly how long the drought has lasted.

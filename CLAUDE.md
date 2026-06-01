@@ -37,8 +37,8 @@ src/
 └── main.tsx
 ```
 
-## Clubs (23)
-AC Milan, Ajax, Arsenal, Aston Villa, Barcelona, Bayern Munich, Benfica, Chelsea, Borussia Dortmund, PSV Eindhoven, Fenerbahçe, Feyenoord, Hamburg, Inter Milan, Juventus, Liverpool, Manchester City, Manchester United, Marseille, Nottingham Forest, Porto, PSG, Real Madrid, Red Star Belgrade, Steaua București.
+## Clubs (27)
+Benfica, FC Porto, Sporting CP, Braga, Manchester City, Arsenal, Liverpool, Manchester United, Chelsea, Tottenham Hotspur, Real Madrid, Barcelona, Atlético Madrid, Inter Milan, Juventus, AC Milan, Napoli, Atalanta, Bayern Munich, Borussia Dortmund, Bayer Leverkusen, RB Leipzig, Paris Saint-Germain, Marseille, Monaco, Lyon, Lille.
 
 ## Competitions
 - champions-league — UEFA Champions League / European Cup
@@ -46,12 +46,8 @@ AC Milan, Ajax, Arsenal, Aston Villa, Barcelona, Bayern Munich, Benfica, Chelsea
 - premier-league — Premier League (England)
 - serie-a — Serie A (Italy)
 - bundesliga — Bundesliga (Germany)
-- eredivisie — Eredivisie (Netherlands)
 - primeira-liga — Primeira Liga (Portugal)
 - ligue-1 — Ligue 1 (France)
-- scottish-premiership — Scottish Premiership (Scotland)
-- liga-i — Liga I (Romania)
-- serbian-superliga — Serbian SuperLiga (Serbia)
 
 Add new competitions via `COMPETITIONS` array and `Record<string, string>` titles in `teams.ts`.
 
